@@ -1,8 +1,58 @@
-header{
+header, .hero {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+   padding-bottom: 20px;
+}
+
+h1 {
+font-size: 48px;
+font-weight: bolder;
+color: #F9FAF8;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    
+}
+
+.description{
+color: #e5e7eb;
+font-size: 18px;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 25px;
+    color:#F9FAF8;
+    border-radius: 5px;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8
+}
+
+
+#hero-image {
+    width: 350px;
+   
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.photos img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
 }
